@@ -17,7 +17,7 @@ setup(
     license="LICENSE.txt",
     description="Merge two arff files",
     long_description=open("README.txt").read(),
-    # install_requires=list(filter(None, [
-    #     "numpy",
-    # ])),
+    install_requires=list(filter(None, [
+        "scipy",
+    ])),
 )
