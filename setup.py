@@ -4,7 +4,7 @@ from setuptools import *
 
 setup(
     name="mergearff",
-    version="1.0",
+    version="1.1",
     author="Uğur Soğukpınar",
     author_email="sogukpinar.ugur@gmail.com",
     url="https://github.com/ugursogukpinar/mergearff",
