@@ -1,7 +1,7 @@
-####mergearff
+# mergearff
 
 
-####Use Case
+#### Use Case
 
 When you want to merge two arff files with Weka, it gives you 2 options as merging and appending. Appending uses for merging two arff files which have exactly same headers. And merging option uses for merging attributes for same instances. But sometimes we need append arff files and their headers. So imagine you have 2 arff files which have same attributes(but different headers) and different instances. 
 
@@ -26,11 +26,11 @@ When you want to merge two arff files with Weka, it gives you 2 options as mergi
 	..
 
 
-####Usage
+#### Usage
 
     $ mergearff [1.arff] [2.arff] [merged.arff]
 
-####Installation
+#### Installation
 
 ```
 $ [sudo] pip install mergearff
